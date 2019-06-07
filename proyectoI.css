@@ -1,0 +1,195 @@
+* { box-sizing: border-box;}
+
+body {
+  font-family:'Quicksand', sans-serif;;
+  font-size: 20px;
+  line-height: 1.6;
+  background-color: #d3dde7;
+  }
+
+.home-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/image1.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 620px;
+}
+
+.home-wrapper img {
+    width: 100px;
+    z-index: 3;
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}
+
+header {
+  padding: 10px 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  }
+
+header nav a.active {
+  background: #3392C4;
+  border-radius: 3px;
+  border-color: white;
+  border-width: thick;
+}
+
+#home {
+  text-align: center;
+  padding: 200px 0px 150px;
+
+}
+
+#home h1 {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+#home p {
+  font-size: 40px;
+  position: relative;
+  top: 75px;
+  left: 320px;
+}
+
+#home .social {
+  margin-top: 80px;
+  position: relative;
+  top: -5px;
+  left: 320px;
+
+}
+
+#home .social a {
+  color: black;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 24px;
+  font-weight: bold;
+  height: 45px;
+  width: 45px;
+  line-height: 50px;
+  margin-right: 10px;
+}
+
+#home .social a:hover {
+  background-color:#D5629E;
+}
+
+#profile .box{
+  display: inline-block;
+  width: 440px;
+  height: 500px;
+  margin: 25px;
+  padding: 1px;
+  position:relative;
+  text-align: center;
+  top: 1px;
+}
+
+#profile .box img{
+  width: 400px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#skills {
+  background-color:#1D2029;
+  color:white;
+}
+
+#skills .box{
+  display: inline-block;
+  text-align: center;
+  text-overflow: clip;
+  width: 33%;
+  }
+
+#contact {
+  text-align: center;
+}
+
+#contact input{
+  padding: 20px;
+  width: 600px;
+  border: 1px solid #5DBCD2;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+#contact textarea {
+  padding: 20px;
+  width: 600px;
+  border: 1px solid #5DBCD2;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+#contact button {
+  background-color:#1D2029;
+  color: white;
+  padding: 15px 30px;
+  border-color: #5DBCD2;
+  border-radius: 6px;
+}
+
+
+
+section {
+  padding: 80px 0;
+}
+
+section h2{
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.container {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home img {
+  width: 10px;
+  border-radius: 20px;
+}
+
+section#home {
+  color: white;
+  display: flex;
+  justify-content:space-around;
+  align-content: space-around;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 1px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p img{
+  width: 200px;
+  border-radius: 20px;
+}
